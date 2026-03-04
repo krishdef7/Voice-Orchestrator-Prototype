@@ -1,0 +1,30 @@
+{
+  "name": "voice-orchestrator-prototype",
+  "version": "1.0.0",
+  "description": "Streaming Voice-Agent Orchestrator — Live API proof-of-concept for Gemini CLI voice mode",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsx src/index.ts",
+    "dev:ptt": "tsx src/index.ts --ptt",
+    "demo": "tsx src/demo-simulated.ts",
+    "test": "for f in src/*.test.ts; do tsx \"$f\" || exit 1; done",
+    "test:sm": "tsx src/stateMachine.test.ts",
+    "test:tm": "tsx src/transcriptManager.test.ts",
+    "test:ih": "tsx src/interruptHandler.test.ts",
+    "test:to": "tsx src/toolOrchestrator.test.ts",
+    "test:lc": "tsx src/liveClient.test.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "naudiodon": "^2.3.4",
+    "ws": "^8.18.0"
+  },
+  "devDependencies": {
+    "@types/ws": "^8.5.13",
+    "@types/node": "^22.10.0",
+    "typescript": "^5.7.0",
+    "tsx": "^4.19.0"
+  }
+}
