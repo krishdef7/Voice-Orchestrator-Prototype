@@ -148,4 +148,4 @@ Every protocol choice is grounded in the [Live API WebSocket reference](https://
 ## Author
 
 Krish Garg — IIT Roorkee
-[Discussion #20145](https://github.com/google-gemini/gemini-cli/discussions/20145)
+[Discussion #20145](https://github.com/google-gemini/gemini-cli/discussions/20145) · [PR #20267](https://github.com/google-gemini/gemini-cli/pull/20267) ✓
