@@ -1,5 +1,8 @@
 # Voice Mode for Gemini CLI — Streaming Orchestration Prototype
 
+[![CI](https://github.com/krishdef7/Voice-Orchestrator-Prototype/actions/workflows/ci.yml/badge.svg)](https://github.com/krishdef7/Voice-Orchestrator-Prototype/actions)
+
+
 Proof-of-concept for [GSoC 2026 Project #11](https://github.com/google-gemini/gemini-cli/discussions/20145) — Hands-Free Multimodal Voice Mode.
 
 ## Problem
